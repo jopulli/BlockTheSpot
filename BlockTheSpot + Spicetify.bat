@@ -9,5 +9,5 @@ if /i "%UserInput%"=="y" (
 ) else (
     echo "Patch not installed."
     pause
-    exit /b
+    exit /y
 )
